@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-OUT_FILE="test.txt"
+OUT_FILE="package_NanitCore2_index.json"
 FILE_NAME="NanitCore.zip"
 HOST="https://sam4ukt.github.io"
 FILE_SIZE=$(stat -c %s ${FILE_NAME})
