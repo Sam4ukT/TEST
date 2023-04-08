@@ -44,6 +44,7 @@ jobs:
     # 5) Copy files
       - name: Copy files
         run: |
+          git submodule update --init --recursive
           cp -ruf ./MegaCore/avr/variants/100-pin-arduino-mega/pins_arduino.h ./Nanit/variants/Nanit/pins_arduino.h 
           cp -ruf ./MegaCore/avr/cores/MCUdude_corefiles/* ./Nanit/cores/MegaCore/  
     # 6) Zip pacckeage
