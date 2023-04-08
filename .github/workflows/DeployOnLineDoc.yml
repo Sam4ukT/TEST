@@ -54,7 +54,7 @@ jobs:
         run: zip -qq -r NanitCore.zip ./Nanit
     # 7) Build site
       - name: Make package_index.json
-        run: sh ./make_index.sh
+        run: sh ./generate.sh $(sha256sum NanitCore.zip)
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
