@@ -8,6 +8,13 @@
 ############################################################# 
 .vscode
 !.gitignore
+#  DOXYGEN generated files
+*.htm*
+*.js
+*.css
+*.png
+*.dot
+*.svg
 # //todo ланцюжок інструментів для мак, лінукс та вінди
 # https://raw.githubusercontent.com/Sam4uk/NanitBoards/develop/package_NanitRobot_index.json
 
